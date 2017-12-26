@@ -1,0 +1,31 @@
+.tableview table tr td {
+	padding: 8px 20px;
+}
+.tableview, #addview {
+	margin: 20px 40px;
+} 
+.tableview table tr th {
+	text-align: center;
+	padding: 5px 9px;
+	background-color: #B2CFD8;
+}
+.tableview tr:nth-child(2n+1) {
+	background-color: #e6eff2;
+}
+a#edit_student {
+	text-decoration: none;
+	color: #E5E5E5;
+	background-color: #377082;
+	padding: 3px 19px 3px 19px;
+	border-radius: 5px;
+}
+a#delete_student {
+	text-decoration: none;
+	color: #E5E5E5;
+	background-color: #bc3e3e;
+	padding: 3px 19px 3px 19px;
+	border-radius: 5px;
+}
+.addform label {
+	width: 13%;
+}
