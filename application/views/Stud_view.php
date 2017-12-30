@@ -1,6 +1,9 @@
+<script>
+function adddata(){
+	//$("#form").submit();
+}
+</script>
 <?php $this->load->view('page_header'); ?>
-
-
       <title>Students Example</title> 
 	
  <div id="addview">
@@ -33,6 +36,7 @@
 				echo "</tr>";				
 			}
 
+
 		?>
     </table> 
 </div>
@@ -48,10 +52,11 @@
         </div>
         <div class="modal-body addform">
 		<?php
-			echo form_open_multipart('Stud_controller/add_student');
+			echo validation_errors(); 
+			echo form_open_multipart('Stud_controller/add_student',array('id'=>'form'));
 			echo form_label('Roll No.');
 			echo form_input(array('id'=>'roll_no1','name'=>'roll_no1')); echo "</br>";
-			echo form_label('Name'); 
+			echo form_label('Name');  
 			echo form_input(array('id'=>'name1','name'=>'name1')); echo '</br>'; 
 			echo form_label('Hobby'); 
 			echo form_checkbox('hobby1[]', 'type 1'); echo 'Type 1';
@@ -68,7 +73,7 @@
 				}
 			echo '</select><br/>';
 			?>
-        <input type="button" name="save_jquery" value="Add" onclick="adddata()"/>
+        <input type="submit" name="save_jquery" value="Add" onclick="adddata()"/>
 		</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

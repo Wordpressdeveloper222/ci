@@ -28,4 +28,71 @@ a#delete_student {
 }
 .addform label {
 	width: 13%;
+	float: left;
+	margin-top: 4px;
+}
+input[type="file"] {
+	display: inline-block !important;
+}
+.modal-body.addform input {
+	margin-bottom: 9px;
+}
+/*.modal-body.addform
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}*/
+/*form{
+margin-left: 25%;
+margin-right:25%;
+width: 50%;
+}*/
+
+/*login form*/
+#form_login input {
+	padding: 9px;
+	 margin-bottom: 14px; 
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	width: 84.5%;
+}
+#login {
+	width: 420px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	/* padding: 10px 40px 25px; */
+	text-align: center;
+	margin: 90px auto;
+	/* padding: 0px 1px 46px; */
+}
+h2#login_heading {
+	background-color: #FEFFED;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	margin: 0px;
+	border-radius: 11px 11px 0px 0px;
+	padding: 25px;
+}
+#form_login label {
+	float: left;
+	width: 138;
+}
+#form_login {
+	padding: 25px 14px 45px;
+}
+#submit_login {
+	background-color: #FFBC00 !important;
+	color: #fff;
+	border: 2px solid #FFBC00 !important;
+}
+#sign_up {
+	float: left;
+	width: 196px;
 }

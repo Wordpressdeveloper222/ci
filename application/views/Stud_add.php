@@ -6,7 +6,7 @@
       <title>Students Example</title> 
    </head> 
    <body> 
-
+  <?php echo validation_errors(); ?>
          <?php 
 			echo form_open_multipart('Stud_controller/add_student');
 			echo form_label('Roll No.');
