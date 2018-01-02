@@ -75,14 +75,13 @@ width: 50%;
 h2#login_heading {
 	background-color: #FEFFED;
 	border-bottom: 1px solid #ccc;
-	padding: 10px;
 	margin: 0px;
 	border-radius: 11px 11px 0px 0px;
 	padding: 25px;
 }
 #form_login label {
 	float: left;
-	width: 138;
+	width: 132px;
 }
 #form_login {
 	padding: 25px 14px 45px;
@@ -91,8 +90,11 @@ h2#login_heading {
 	background-color: #FFBC00 !important;
 	color: #fff;
 	border: 2px solid #FFBC00 !important;
+	font-weight: bold;
+	font-size: 17px;
 }
 #sign_up {
 	float: left;
 	width: 196px;
 }
+/*login form end*/
