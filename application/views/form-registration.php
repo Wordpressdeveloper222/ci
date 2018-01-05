@@ -6,7 +6,9 @@ echo "</div>";
 if (isset($message_display)) {
 echo $message_display;
 }
-echo form_open('Stud_controller/registration');
+echo "<div class='container registration'>";
+echo form_open('Stud_controller/registration',array('id'=>'form_reg'));
+echo '<h2 id="reg_heading">Create an account</h2>';
 echo form_label('Name : ');
 echo"<br/>";
 echo form_input('name');echo"<br/>";echo"<br/>";
@@ -29,6 +31,7 @@ echo"<br/>";
 echo form_password('password');
 echo"<br/>";
 echo"<br/>";
-echo form_submit(array('value'=>'Submit','id'=>'submit_reg')); 
+echo form_submit(array('value'=>'Submit','id'=>'submit_reg'));
+echo "</div>"; 
 echo form_close();
 ?>

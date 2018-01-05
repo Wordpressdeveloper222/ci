@@ -69,7 +69,7 @@ class Stud_controller extends CI_Controller {
 
 	public function user_logout(){
 		$this->session->sess_destroy();
-  	redirect('login');
+  		redirect('login');
 	}
 	public function add_registration_view()
 	{

@@ -98,3 +98,32 @@ h2#login_heading {
 	width: 196px;
 }
 /*login form end*/
+
+/*registration form*/
+.registration {
+	width: 400px !important;
+	margin: 90px auto;
+	border: 1px solid #ccc;
+}
+#form_reg input {
+	border-radius: 7px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 235px;
+	/* margin-left: 7px; */
+}
+#form_reg {
+	margin-left: 15px;
+	margin-top: 30px
+}
+#submit_reg {
+	width: 100px !important;
+	background: #FFBC00;
+	color: #fff;
+	border: 1px solid #FFBC00 !important;
+}
+h2#reg_heading {
+	font-size: 24px;
+	font-weight: bold;
+}
+/*end*/

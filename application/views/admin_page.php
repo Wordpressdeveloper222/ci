@@ -7,6 +7,7 @@ else{
 	header('location:login');
 }
 ?>
+<?php $this->load->view('header');?>
 <div id="profile">
 <?php
 echo "Hello <b id='welcome'><i>" . $username . "</i> !</b>";
@@ -21,4 +22,6 @@ echo "Your Email is " . $email;
 echo "<br/>";
 ?>
 <b id="logout"><a href="logout">Logout</a></b>
+<b id="View"><a href="stud">View</a></b>
+
 </div>
